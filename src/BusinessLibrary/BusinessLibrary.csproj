@@ -51,6 +51,8 @@
     <Compile Include="Accounting\InvoiceLine.cs" />
     <Compile Include="Accounting\InvoiceLineMap.cs" />
     <Compile Include="Accounting\InvoiceMap.cs" />
+    <Compile Include="Accounting\ProductReference.cs" />
+    <Compile Include="Accounting\ProductReferenceMap.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Stock\StockContext.cs" />
     <Compile Include="Stock\Product.cs" />

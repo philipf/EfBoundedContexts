@@ -6,7 +6,10 @@ namespace BusinessLibrary.Stock
     {
         public DbSet<Product> Products { get; set; }
 
-        public StockContext() : base("name=MyDb") { }
+        public StockContext() : base("name=MyDb")
+        {
+            Database.SetInitializer<StockContext>(null);
+        }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

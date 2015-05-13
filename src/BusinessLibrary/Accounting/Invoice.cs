@@ -20,10 +20,11 @@ namespace BusinessLibrary.Accounting
             DocumentNumber = documentNumber;
         }
 
-        public void AddLines(int quantity)
+        public void AddLines(int quantity, ProductReference productReference)
         {
             var line = new InvoiceLine();
             line.Quantity = quantity;
+            line.Product = productReference;
 
             Lines.Add(line);
         }
