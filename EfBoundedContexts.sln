@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLibrary", "src\BusinessLibrary\BusinessLibrary.csproj", "{84334817-E746-4C5F-A808-068C7CDBB26D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestBedCli", "src\TestBedCli\TestBedCli.csproj", "{1D0C438D-26B5-4E5E-A564-00CD6F0AB808}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{84334817-E746-4C5F-A808-068C7CDBB26D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84334817-E746-4C5F-A808-068C7CDBB26D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84334817-E746-4C5F-A808-068C7CDBB26D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84334817-E746-4C5F-A808-068C7CDBB26D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D0C438D-26B5-4E5E-A564-00CD6F0AB808}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D0C438D-26B5-4E5E-A564-00CD6F0AB808}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D0C438D-26B5-4E5E-A564-00CD6F0AB808}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D0C438D-26B5-4E5E-A564-00CD6F0AB808}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
